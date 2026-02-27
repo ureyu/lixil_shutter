@@ -1,6 +1,6 @@
 <macro name="shutter_down" icon="DOWN">
 <assert-service uuid="2141E110-213A-11E6-B67B-9E71128CAE77" device-name="LIXIL SHUTTER">
-<read characteristic-uuid="2141E112-213A-11E6-B6Bb-9E71128CAE77" />
+<read characteristic-uuid="2141E112-213A-11E6-B67B-9E71128CAE77" />
 <write characteristic-uuid="2141E112-213A-11E6-B67B-9E71128CAE77" value="0204" data-type="hex" type="WRITE_COMMAND" delay="1500" />
 </assert-service>
 </macro>
